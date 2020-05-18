@@ -1,4 +1,4 @@
-###day1
+### day1
 
 - 강화학습이란 무엇인가요?
 
@@ -25,7 +25,7 @@
 모델은 강화학습이 진행되는 환경으로 특정 상태와 행위를 받고, 다음 상태와 보상을 return하는 것으로 실제의 환경을 모방하는 것이다. 이러한 모델을 활용한 계획을 통해 강화학습 문제를 푸는 방식을 model-based라 하며, 오로지 시행착오를 통해 환경에 대해 학습하는 방법론을 model-free라고 한다.
 
 
-###day2
+### day2
 
 - 다중 선택 문제란 무엇인가요?
 
@@ -41,7 +41,7 @@ At = argmax~a[Qt(a)+c*sqrt(lnt/Nt(a))]
 
 
 
-###day3
+### day3
 
 - 1. Bellman Expectation Equation 암기: v(s) (식 3.14)
 
@@ -57,7 +57,7 @@ q*(s,a) = Σp(s',r|s,a)[r+γmaxq*(s',a')]
 
 
 
-###day4
+### day4
 
 - 1. Policy Evaluation에서 v(s) 업데이트 식 암기해서 적어주세요: (식 4.4, Bellman Expectation Equation과 동일)
 
@@ -77,7 +77,7 @@ v(s) <- maxΣp(s',r|s,a)[r+γv(s')]
 
 
 
-###day5
+### day5
 
 - policy iteration
 
